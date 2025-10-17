@@ -5,60 +5,60 @@
 This project is an intelligent medicinal chatbot built using a Retrieval-Augmented Generation (RAG) pipeline.
 It can read medicinal or healthcare PDFs, understand them, and answer user queries in a conversational manner using the DeepSeek-R1-Distill-Llama-70B model.
 
-Features
+>>>>>>>>>>>>>>>>>>>Features
 
-Loads and processes medical PDFs using PyPDFLoader
+✅Loads and processes medical PDFs using PyPDFLoader
 
-Splits long documents using RecursiveCharacterTextSplitter
+✅Splits long documents using RecursiveCharacterTextSplitter
 
-Generates semantic embeddings using SentenceTransformer
+✅Generates semantic embeddings using SentenceTransformer
 
-Stores and retrieves data using ChromaDB
+✅Stores and retrieves data using ChromaDB
 
-Uses DeepSeek-R1-Distill-Llama-70B for response generation
+✅Uses DeepSeek-R1-Distill-Llama-70B for response generation
 
-Uses Ensemble Retriever for hybrid (dense + keyword) search
+✅Uses Ensemble Retriever for hybrid (dense + keyword) search
 
-Maintains conversation history with ConversationalBufferMemory
+✅Maintains conversation history with ConversationalBufferMemory
 
-Provides an interactive user chat loop
+✅Provides an interactive user chat loop
 
-Architecture Workflow
+>>>>>>>>>>>>>>>>>>>>>>>>Architecture Workflow
 
 Load medicinal PDFs using DirectoryLoader and PyPDFLoader
 
-Split the text into smaller chunks using RecursiveCharacterTextSplitter
+✅Split the text into smaller chunks using RecursiveCharacterTextSplitter
 
-Generate embeddings using SentenceTransformer
+✅Generate embeddings using SentenceTransformer
 
-Store embeddings in ChromaDB (vector database)
+✅Store embeddings in ChromaDB (vector database)
 
-Retrieve relevant information using EnsembleRetriever
+✅Retrieve relevant information using EnsembleRetriever
 
-Use ChatPromptTemplate to build dynamic conversation prompts
+✅Use ChatPromptTemplate to build dynamic conversation prompts
 
-Maintain conversation history using ConversationalBufferMemory
+✅Maintain conversation history using ConversationalBufferMemory
 
-Use DeepSeek-R1-Distill-Llama-70B for intelligent responses
+✅Use DeepSeek-R1-Distill-Llama-70B for intelligent responses
 
-Output responses through an interactive chat loop
+✅Output responses through an interactive chat loop
 
-Components and Tools
+>>>>>>>>>>>>>>>>>Components and Tools
 
-DirectoryLoader
+✅DirectoryLoader
 
-PyPDFLoader
+✅PyPDFLoader
 
-RecursiveCharacterTextSplitter
+✅RecursiveCharacterTextSplitter
 
-SentenceTransformer Embedding
+✅SentenceTransformer Embedding
 
-ChromaDB
+✅ChromaDB
 
-EnsembleRetriever
+✅EnsembleRetriever
 
-DeepSeek-R1-Distill-Llama-70B
+✅DeepSeek-R1-Distill-Llama-70B
 
-ChatPromptTemplate
+✅ChatPromptTemplate
 
-ConversationalBufferMemory
+✅ConversationalBufferMemory
